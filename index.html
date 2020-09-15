@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="filter">
+        <select>
+            <option value="none">none</option>
+            <option value="blur">blur</option>
+            <option value="brightness">brightness</option>
+            <option value="contrast">contrast</option>
+            <option value="grayscale">grayscale</option>
+            <option value="hue-rotate">hue-rotate</option>
+            <option value="invert">invert</option>
+            <option value="opacity">opacity</option>
+            <option value="saturate">saturate</option>
+            <option value="sepia">sepia</option>
+            <option value="drop-shadow">drop-shadow</option>
+        </select>
+        <input type="range" class="number"><span class="out"></span>
+        
+    </div>
+    <div>
+        <img src="https://static5.depositphotos.com/1057195/520/i/950/depositphotos_5208324-stock-photo-potted-globe-cactus-isolated-over.jpg" class="img-filter">
+        <button>Применить</button>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
